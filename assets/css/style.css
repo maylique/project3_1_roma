@@ -31,7 +31,7 @@ html {
 .big {
     background: url(../img/cleo-topper.jpg) center/cover no-repeat;
     background-attachment: fixed;
-    height: 600vh;
+    height: 6000px;
 }
 
 img {
@@ -116,11 +116,10 @@ header a {
     '. paid .'
     '. insu .'
     '. workers .';
-    justify-content: center;
     font-family: 'santio';
     font-size: 3rem;
     font-weight: bold;
-    gap: 25%;
+    row-gap: 25%;
     margin-top: 40vh;
 }
 
@@ -165,7 +164,7 @@ h5 {
 }
 
 .kidsimg {
-    background: url(../img/kid.png) center/cover no-repeat;
+    background: url(../img/kid.png) center/cover ;
     height: 150dvh;
 }
 
@@ -183,7 +182,7 @@ h5 {
 }
 
 .canhelp p {
-    width: 390px;
+    width: 35%;
 }
 
 .canhelp a {
@@ -212,4 +211,19 @@ footer a {
     font-size: 0.8rem;
     color: #6BC1A3;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 941px){
+
+    .cyan {
+        width: 80%;
+        margin: 50% auto;
+    }
+    .big {
+        height: 700vh;
+    }
+
+    .stats {
+        line-height: 1.2;
+    }
 }
