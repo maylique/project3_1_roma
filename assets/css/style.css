@@ -31,18 +31,18 @@ html {
 .big {
     background: url(../img/cleo-topper.jpg) center/cover no-repeat;
     background-attachment: fixed;
-    height: 330vh;
+    height: 600vh;
 }
 
 img {
-    width: 16px;
+    width: 24px;
 }
 
 header {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 8px 64px;
+    padding: 16px 64px;
 }
 
 header a {
@@ -50,54 +50,62 @@ header a {
     color: white;
     text-decoration: none;
     padding-bottom: 4px;
-    border-bottom: 1px #E7BC0E solid;
+    border-bottom: 2px #E7BC0E solid;
     font-family: 'roboto';
+    font-weight: bolder;
+    font-size: 1.2rem;
 }
 
 .cleo {
     display: flex;
     flex: 1;
     width: 7%;
-    font-size: 2.5rem;
+    font-size: 4.2rem;
     font-family: 'inter';
     font-weight: bold;
     color: white;
-    line-height: 1.2;
-    margin: 8%;
+    line-height: 1.1;
+    margin: 10%;
 }
 
 .yellow {
     font-family: 'mr';
     color: #E7BC0E;
-    margin-left: 8%;
+    margin-left: 10%;
     display: flex;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 
 .yellow a {
     text-decoration: none;
+    font-style: italic;
     color: #E7BC0E;
     font-size: 1.5rem;
-    font-family: 'santio';
-    margin: 16px;
+    font-family: 'inter';
+    margin: 32px;
 }
 
 .cyan {
     font-family: 'santio';
     color: #6BC1A3;
-    width: 20%;
-    margin: 15%;
-    line-height: 1.2;
-    font-size: 1.2rem;
+    width: 34vw;
+    margin-top: 20%;
+    margin-left: 17%;
+    line-height: 1.8;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
 .cyan span {
     color: white;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 0 4px;
+    padding-top: 8px;
+    
 }
 
 .stats img {
-    width: 64px;
+    width: 128px;
 }
 
 .stats {
@@ -110,23 +118,28 @@ header a {
     '. workers .';
     justify-content: center;
     font-family: 'santio';
-    font-size: 1.8rem;
+    font-size: 3rem;
+    font-weight: bold;
     gap: 25%;
+    margin-top: 40vh;
 }
 
 .millions {
     color: #E7BC0E;
+    line-height: 1.2;
     grid-area: millions;
 }
 
 .stats span {
     color: white;
     background-color: rgba(0, 0, 0, 0.42);
-    padding-top: 4px;
+    padding: 0 4px;
+    padding-top: 8px;
 }
 
 .millions h5 {
-    font-size: 4rem;
+    font-size: 8rem;
+    line-height: normal;
 }
 
 .paid {
@@ -135,7 +148,7 @@ header a {
 }
 
 h5 {
-    font-size: 2.8rem;
+    font-size: 8rem;
     margin-top: 8px;
 }
 
@@ -146,35 +159,37 @@ h5 {
 
 .workers {
     color: #7EB8E1;
-    font-size: 1.3rem;
+    font-size: 2rem;
     line-height: 1.5;
     grid-area: workers;
 }
 
 .kidsimg {
     background: url(../img/kid.png) center/cover no-repeat;
-    height: 80vh;
+    height: 150dvh;
 }
 
 .canhelp {
     background-color: black;
     color: white;
-    font-family: 'inter';
-    font-size: 2.2rem;
+    font-family: 'santio';
+    font-size: 4rem;
     font-weight: bold;
     padding: 8%;
+    height: 120vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .canhelp p {
-    width: 30%;
+    width: 390px;
 }
 
 .canhelp a {
     text-decoration: none;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-family: 'roboto';
     border: 1px solid white;
     padding: 8px 16px;
@@ -183,7 +198,7 @@ h5 {
 }
 
 .canhelp a:hover {
-    box-shadow: 5px 5px white;
+    box-shadow: 10px 10px white;
 }
 
 footer {
