@@ -31,7 +31,7 @@ html {
 .big {
     background: url(../img/cleo-topper.jpg) center/cover no-repeat;
     background-attachment: fixed;
-    height: 6000px;
+    height: 600vh;
 }
 
 img {
@@ -120,7 +120,7 @@ header a {
     font-size: 3rem;
     font-weight: bold;
     row-gap: 25%;
-    margin-top: 40vh;
+    margin-top: 20%;
 }
 
 .millions {
